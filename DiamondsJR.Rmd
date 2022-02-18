@@ -1,0 +1,14 @@
+---
+title: "DiamondsJR"
+author: "Juan Ramon Breebaart"
+date: "2/17/2022"
+output: word_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
+
